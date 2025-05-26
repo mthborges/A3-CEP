@@ -38,10 +38,3 @@ function buscarCEP() {
 
   xhr.send();
 }
-
-// Adiciona suporte à tecla Enter no input
-document.getElementById("cep").addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    buscarCEP();
-  }
-});
